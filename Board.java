@@ -25,7 +25,6 @@ public class Board {
         }
 
         readBoard(filename); // read in provided board
-        System.out.println(board);
 
         // represent the number of each digit that is left to be placed on the board
         for (int i = 0; i < 9; i++){
@@ -55,7 +54,6 @@ public class Board {
                     }
                 }
             }
-            System.out.println(board);
             read.close();
         }
         catch(FileNotFoundException e){
@@ -131,7 +129,6 @@ public class Board {
                 }
             }
         }
-        System.out.println(board);
         return true;
     }
 
